@@ -1,0 +1,31 @@
+@font-face{
+    font-family: "DS-Digital";
+    src: url('/fonts/DS-DIGIB.TTF');
+}
+
+.relogio-class{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "DS-Digital";
+    font-size: 100px;
+}
+
+body{
+    background-color: #DFC5EA;
+    color: #1B0537;
+}
+
+.dark-mode{
+    background-color: #1B0537;
+    color: #DFC5EA;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+    text-align: center;
+}
+
