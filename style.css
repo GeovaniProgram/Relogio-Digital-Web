@@ -3,7 +3,7 @@
     src: url('/fonts/DS-DIGIB.TTF');
 }
 
-.relogio-class{
+#relogio{
     position: absolute;
     top: 50%;
     left: 50%;
