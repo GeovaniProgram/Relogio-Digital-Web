@@ -17,8 +17,23 @@
 header{
     background-color: #1B0537;
     color: #DFC5EA;
-    text-align: center;
     padding: 10px;
+    margin: 10;
+}
+.container-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header h1{
+    font-family: "Courier New" , Courier, monospace;
+    text-align: start;
+    padding-left: 20px 0 ;
+}
+
+header img{
+    width: 40px;
 }
 
 nav{
@@ -36,10 +51,7 @@ nav a{
     margin: 0 10px;
 
 }
-#botaodark{
-    width: 40px;
-    text-align: end;
-}
+
 main{
     padding: 20px;
 }
@@ -81,11 +93,6 @@ footer img{
         background-color: #0f0220;
         color: #DFC5EA;
     }
-}
-
-h1{
-    font-family: "Courier New" , Courier, monospace;
-    text-align: center;
 }
 
 h2{
