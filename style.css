@@ -66,6 +66,7 @@ body{
 #relogio{
     font-family: "DS-Digital";
     font-size: 20vw;
+    margin: -10px;
 }
 
 footer{
