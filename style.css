@@ -18,7 +18,6 @@ header{
     background-color: #1B0537;
     color: #DFC5EA;
     padding: 10px;
-    margin: 10;
 }
 .container-header{
     display: flex;
@@ -29,7 +28,6 @@ header{
 header h1{
     font-family: "Courier New" , Courier, monospace;
     text-align: start;
-    padding-left: 20px 0 ;
 }
 
 header img{
@@ -75,6 +73,7 @@ footer{
 }
 footer img{
     width: 50px;
+    margin: 20px;
 }
 
 .dark-mode{
