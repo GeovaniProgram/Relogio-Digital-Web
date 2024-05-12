@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 @font-face{
     font-family: "DS-Digital";
     src: url('/fonts/DS-DIGIB.TTF');
@@ -21,11 +26,15 @@ nav{
     text-align: center;
     padding: 5px 0;
 }
-
+nav li{
+    display: inline-block;
+    list-style-type: none;
+}
 nav a{
     color: #d6b7e4;
     text-decoration: none;
     margin: 0 10px;
+
 }
 #botaodark{
     width: 40px;
