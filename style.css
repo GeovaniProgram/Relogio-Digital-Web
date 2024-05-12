@@ -15,8 +15,8 @@
 }
 
 header{
-    background-color: #1B0537;
-    color: #DFC5EA;
+    background-color: #6c40a7;
+    color: #0f0220;
     padding: 10px;
 }
 .container-header{
@@ -25,7 +25,8 @@ header{
     justify-content: space-between;
 }
 
-header h1{
+header h1,
+h2{
     font-family: "Courier New" , Courier, monospace;
     text-align: start;
 }
@@ -35,7 +36,7 @@ header img{
 }
 
 nav{
-    background-color: #110225;
+    background-color: #502a81;
     text-align: center;
     padding: 5px 0;
 }
@@ -44,7 +45,7 @@ nav li{
     list-style-type: none;
 }
 nav a{
-    color: #d6b7e4;
+    color: #0f0220;
     text-decoration: none;
     margin: 0 10px;
 
@@ -56,14 +57,14 @@ main{
 
 body{
     background-color: #DFC5EA;
-    color: #1B0537;
+    color: #1e073b;
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 footer{
-    background-color: #1B0537;
+    background-color: #6c40a7;
     color: #DFC5EA;
     padding: 10px 0;
     position: absolute;
@@ -83,7 +84,10 @@ footer img{
     }
     nav{
         background-color: #0b011a;
-        color: #d6b7e4;
+        color: #DFC5EA;
+    }
+    nav a{
+        color: #DFC5EA;
     }
     background-color: #1B0537;
     color: #DFC5EA;
