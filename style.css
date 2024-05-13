@@ -3,11 +3,6 @@
     margin: 0;
 }
 
-@font-face{
-    font-family: "DS-Digital";
-    src: url('/fonts/DS-DIGIB.TTF');
-}
-
 header{
     background-color: #6c40a7;
     color: #0f0220;
@@ -64,7 +59,7 @@ body{
 }
 
 #relogio{
-    font-family: "DS-Digital";
+    font-family: 'DS-Digital', sans-serif;             
     font-size: 20vw;
     margin: -10px;
 }
