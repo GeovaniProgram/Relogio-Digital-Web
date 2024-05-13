@@ -23,13 +23,13 @@ function darkMode() {
     var element = document.body;
     dark = dark + 1;
     element.classList.toggle("dark-mode");
-    document.getElementById("botaodark").src = "/assets/light-mode.png";
-    document.getElementById("github").src = "/assets/github-icon/github-icon-lightmode.png";
-    document.getElementById("linkedin").src ="/assets/linkedin-icon/linkidin-icon-lightmode.png";
+    document.getElementById("botaodark").src = "https://images2.imgbox.com/da/d3/9oymQnsk_o.png";
+    document.getElementById("github").src = "https://images2.imgbox.com/98/86/gXmWw59p_o.png";
+    document.getElementById("linkedin").src ="https://images2.imgbox.com/90/78/5d0AC1hh_o.png";
     if (dark == 2){
-        document.getElementById("github").src = "/assets/github-icon/github-icon-darkmode.png";
-        document.getElementById("linkedin").src ="/assets/linkedin-icon/linkidin-icon-darkmode.png";
-        document.getElementById("botaodark").src = "/assets/dark-mode.png";
+        document.getElementById("github").src = "https://images2.imgbox.com/af/dd/cYb58SPj_o.png";
+        document.getElementById("linkedin").src ="https://images2.imgbox.com/09/31/5S00TG1i_o.png";
+        document.getElementById("botaodark").src = "https://images2.imgbox.com/d2/1f/eC6GZgjb_o.png";
         dark = 0
     }
 }
